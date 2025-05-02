@@ -67,6 +67,7 @@ ZMK_BEHAVIOR(comma_morph, mod_morph,
 ZMK_BEHAVIOR(dot_morph, mod_morph,
     bindings = <&kp DOT>, <&kp COLON>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
+)
 
 / {
     combos {
